@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="content">
+	<name>Content - Mask email</name>
+	<creationDate>9/03/2016</creationDate>
+	<license>GNU/GPL</license>
+	<version>1.0</version>
+	<author>Juraj Vysvader</author>
+	<copyright>Juraj Vysvader</copyright>
+	<authorEmail>juraj.vysvader@gmail.com</authorEmail>
+	<authorUrl>https://www.unisoftdev.tech/</authorUrl>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>You do not need to set up, merely to enable.</description>
+	<files>
+                <filename plugin="maskemail">maskemail.php</filename>
+                <filename>index.html</filename>
+				<filename>maskemail.js</filename>
+        </files>
+		<config></config>
+</extension>
