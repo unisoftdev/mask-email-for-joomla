@@ -16,7 +16,7 @@ class plgContentMaskemail extends JPlugin{
 		{
 				$document = JFactory::getDocument();
 				$document->addScript(JURI::base(). "plugins/content/maskemail/maskemail.js");
-				$row->text = str_replace("@","+???+",$row->text);
+				$row->text = str_replace("@","unisoftdevmask",$row->text);
 				
 				
 		}		
